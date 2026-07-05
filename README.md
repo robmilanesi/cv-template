@@ -1,6 +1,8 @@
 # CV Template (Typst)
 Simple CV template in typst. It separates style (`template.typ`) from content (`data.yaml`).
 
+![Preview](docs/preview.png)
+
 
 ## How To Compile
 

@@ -1,14 +1,23 @@
 # CV Template (Typst)
 Simple CV template in typst. It separates style (`template.typ`) from content (`data.yaml`).
 
-![Preview](docs/preview.png)
+## Preview Templates
+### Default
+![Preview](docs/preview1.png)
+### With sidebar
+![Preview](docs/preview_sidebar.png)
 
 
 ## How To Compile
 
 ```bash
-typst compile main.typ            # generate main.pdf
-typst watch main.typ              # recompile on every save
+typst compile main.typ                              # template clean (default)
+typst compile main.typ --input template=sidebar     # template with sidebar
+typst watch main.typ                                # recompile live on save (default)
+ 
+# Image export (i've used it for readme previews)
+typst compile main.typ preview.png --ppi 150
+
 ```
 
 ## How Yo Update

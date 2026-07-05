@@ -126,7 +126,7 @@
     [
       #section-title("Contact")
       #if "linkedin" in data.contact [
-        #contact-item-link(data.contact.linkedin.label, data.contact.linkedin.url, icon: data.at("linkedin-icon", default: "linkedin-icon.png"))
+        #contact-item-link(data.contact.linkedin.label, data.contact.linkedin.url, icon: data.at("linkedin-icon", default: "assets/linkedin-icon.png"))
       ]
       #contact-item("Email", data.contact.email)
       #contact-item("Phone", data.contact.phone)

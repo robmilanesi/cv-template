@@ -1,6 +1,6 @@
 name: "John Doe"
 title: "Software Engineer"
-photo: "cv_avatar.png"
+photo: "assets/cv_avatar.png"
 accent_color: "#1D546D"
 font: "Libertinus Serif"
 font-mono: "DejaVu Sans Mono"

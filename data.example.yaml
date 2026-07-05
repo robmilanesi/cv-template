@@ -1,0 +1,58 @@
+name: "John Doe"
+title: "Software Engineer"
+photo: "cv_avatar.png"
+accent_color: "#1D546D"
+font: "Libertinus Serif"
+font-mono: "DejaVu Sans Mono"
+
+contact:
+  linkedin:
+    label: "in/john-doe"
+    url: "https://www.youtube.com/watch?v=E4WlUXrJgy4"
+  email: "john.doe@example.com"
+  phone: "+39 000 000 0000"
+  location: "Milan, Italy"
+
+languages:
+  - "Italian (Native)"
+  - "English (B2)"
+
+skills:
+  - category: "Languages"
+    info: "Python, JavaScript, Go, SQL"
+  - category: "Cloud & DevOps"
+    info: "AWS, Docker, Kubernetes, Terraform"
+  - category: "Testing"
+    info: "Pytest, Playwright, API Automation"
+  - category: "Databases"
+    info: "PostgreSQL, MySQL, Redis"
+
+education:
+  - title: "Degree"
+    info: "Bachelor's Degree in Computer Science, Example University."
+
+certifications:
+  - title: "Certification"
+    label: "AWS Certified Developer – Associate"
+    url: "https://example.com/badge"
+
+summary: >
+  Software Engineer with N years of experience in backend development and
+  cloud infrastructure. Short paragraph summarizing the profile, main
+  areas of expertise, and what you're looking for in your next role.
+
+experience:
+  - title: "Senior Software Engineer"
+    company: "Example Company Inc."
+    date: "2022 – Present"
+    bullets:
+      - "Description of the main responsibility or achievement."
+      - "A second point, ideally with a number or measurable impact."
+      - "A third point, if needed."
+
+  - title: "Software Engineer"
+    company: "Another Company LLC"
+    date: "2019 – 2022"
+    bullets:
+      - "Description of the previous role."
+      - "Another relevant point."
